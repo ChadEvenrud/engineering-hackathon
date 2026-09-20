@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
